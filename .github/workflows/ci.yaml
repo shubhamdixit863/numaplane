@@ -2,7 +2,7 @@ name: test
 on:
   push:
     branches:
-      - "main"
+      - "feat/gitAuthentication"
   pull_request:
     branches:
       - "main"
