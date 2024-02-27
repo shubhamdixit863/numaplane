@@ -138,7 +138,7 @@ func TestMain(m *testing.M) {
 		// Check SSH service availability
 		_, err = net.Dial("tcp", "localhost:2222") // Adjust port if necessary
 		if err != nil {
-			return fmt.Errorf("SSH service not yet ready")
+			return fmt.Errorf("SSH service not yet ready yes")
 		}
 
 		// Check Apache server availability
